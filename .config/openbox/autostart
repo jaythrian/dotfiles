@@ -1,0 +1,11 @@
+# Programs that will run after Openbox has started
+
+# Set the wallpaper
+nitrogen --set-auto ~/Pictures/wallpaper.jpg &
+
+# Autostart tint2
+(sleep 2s && tint2) &
+
+# Autostart dmenu
+dmenu_run &
+
